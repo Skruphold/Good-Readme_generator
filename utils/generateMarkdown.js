@@ -19,9 +19,10 @@ function generateMarkdown(data) {
 
   return `# ${data.title}
 ## Questions
-
 ### Username
 <a href="https://github.com/${data.username}">${data.username}</a>
+## E-mail
+<a href="mailto: ${data.Email}">${data.Email}</a>
 ## Description 
 ${data.description}
 
@@ -49,8 +50,7 @@ ${data.license}
 ${data.contribution}
 ## Tests
 ${data.testing}
-## E-mail
-<a href="mailto: ${data.Email}">${data.Email}</a>
+
 `;
 }
 
