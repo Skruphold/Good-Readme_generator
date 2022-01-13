@@ -29,6 +29,7 @@ function renderLicenseBadge(license) {
       break;
     case "None":
       link = ""
+      linkInfo = ""
   }
   console.log("works")
 }
