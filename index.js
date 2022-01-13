@@ -20,7 +20,7 @@ inquirer.prompt([
         type: "list",
         message: "Which license?",
         name: "license",
-        choices: ["Apache License 2.0", "BSD License", "GNU License", "MIT License", "Mozilla public License 2.0"]
+        choices: ["Apache License 2.0", "BSD License", "GNU License", "MIT License", "Mozilla public License 2.0", "None"]
     },
     {
         type: "input",
