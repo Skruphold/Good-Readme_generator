@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-var link;
-
+// var link;
+// looping through the license response to see which badge and what info needs to be displayed
 function renderLicenseBadge(license) {
   var licenseName = (license)
   switch(licenseName) {
@@ -28,7 +28,7 @@ function renderLicenseBadge(license) {
       linkInfo = "1.1. “Contributor” means each individual or legal entity that creates, contributes to the creation of, or owns Covered Software clcik on badge for more info."
       break;
     case "None":
-      link = "None"
+      link = ""
   }
   console.log("works")
 }
@@ -42,10 +42,9 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
+// taking all the user inputs and placing them in the correct part of the readme
 function generateMarkdown(data) {
-
   renderLicenseBadge(data.license)
-  // renderLicenseBadge();
   // renderLicenseLink();
   // renderLicenseSection();
 
@@ -73,6 +72,7 @@ ${data.usage}
 ## Credits
 Made by hunter with love!
 ## License
+${data.license}
 ${linkInfo}
 ## Features
 
