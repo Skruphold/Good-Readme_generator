@@ -70,6 +70,8 @@ ${data.install}
 ## Usage
 ${data.usage}
 
+## Images
+
 ## Credits
 Made by hunter with love!
 ## License
